@@ -5,15 +5,15 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Student Registration", path: "/student" },
-    { name: "Company Registration", path: "/company" },
+    { name: "Jobseeker Registration", path: "/student" },
+    { name: "Employer Registration", path: "/company" },
   ];
 
   return (
     <nav className="fixed w-full z-20 top-0 left-0 bg-gray-900/80 backdrop-blur-md shadow-lg border-b border-blue-900">
       <div className="max-w-6xl mx-auto flex justify-between items-center py-2 px-4">
         <span className="text-lg font-extrabold bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 text-transparent bg-clip-text drop-shadow">
-          Tech Jobfair 2025
+          Mega Jobfair 2025
         </span>
         {/* Navigation Links */}
         <div className="flex gap-8">

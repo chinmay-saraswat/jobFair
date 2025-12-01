@@ -2,55 +2,36 @@
 
 const companyLogos = [
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
-    alt: "Apple",
+    src: "src/assets/Tech_Mahindra_New_Logo.webp",
+    alt: "TechMahidra",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
-    alt: "Microsoft",
+    src: "src/assets/3I-infotech-logo.png",
+    alt: "Infotech",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-    alt: "Google",
+    src: "src/assets/energizer.webp",
+    alt: "energizer",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Accenture.svg",
-    alt: "Accenture",
+    src: "src/assets/concentrix-logo2.webp",
+    alt: "concentrix",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg",
-    alt: "Infosys",
+    src: "src/assets/Quess_Corp_Color_Logo.webp",
+    alt: "quessCorp",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Wipro_Logo_2017.svg",
-    alt: "Wipro",
+    src: "src/assets/randstad-logo.webp",
+    alt: "randstad",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/3/32/Tata_Consultancy_Services_Logo.svg",
-    alt: "TCS",
+    src: "src/assets/teamLeaseLogo.webp",
+    alt: "TeamLease",
   },
-  {
-    src: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
-    alt: "IBM",
-  },
-  {
-    src: "https://upload.wikimedia.org/wikipedia/commons/2/20/HCL_Technologies_Logo.svg",
-    alt: "HCL",
-  }, {
-    src: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Accenture.svg",
-    alt: "Accenture",
-  },
-  {
-    src: "https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg",
-    alt: "Infosys",
-  },
-  {
-    src: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Wipro_Logo_2017.svg",
-    alt: "Wipro",
-  },
-  {
-    src: "https://upload.wikimedia.org/wikipedia/commons/3/32/Tata_Consultancy_Services_Logo.svg",
-    alt: "TCS",
+   {
+    src: "src/assets/axis-bank-logo-png_seeklogo-14775.webp",
+    alt: "AxisBank",
   },
 ];
 
@@ -59,13 +40,13 @@ export default function ParticipatingCompaniesMarquee() {
     <div className="w-full bg-transparent flex flex-col items-center pt-11">
       <div className="max-w-5xl w-full mx-auto px-4">
         <div className="overflow-hidden">
-          <div className="marquee flex items-center gap-10 py-3">
+          <div className="marquee flex items-center gap-8 py-3">
             {companyLogos.concat(companyLogos).map(({ src, alt }, idx) => (
               <img
                 key={alt + idx}
                 src={src}
                 alt={alt}
-                className="h-12 w-auto bg-white rounded-md px-2 py-1"
+                className="h-12 w-auto bg-white rounded-md px-1"
                 onError={(e) => {
                   e.currentTarget.style.display = "none";
                 }}

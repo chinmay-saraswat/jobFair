@@ -8,7 +8,7 @@ export default function Home() {
         <img
           src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1500&q=80" // Example: change to your own tech/jobfair image
           alt="Job Fair Hero"
-          className="w-full h-full object-cover object-top opacity-50"
+          className="w-full h-full object-cover object-top opacity-25"
           draggable="false"
         />
         <div className="absolute inset-0 bg-slate-950/80" />
@@ -22,7 +22,7 @@ export default function Home() {
       <div className="relative z-10 flex flex-col items-center justify-center w-full pt-5 pb-10 px-2">
         {/* Header/Logos/Intro */}
         <section className="mb-6 w-full max-w-5xl mx-auto text-center">
-          <div className="flex flex-wrap items-center justify-center gap-6 mb-6 px-5  rounded-2xl bg-white/70 border border-white/80 shadow backdrop-blur-sm">
+          {/*<div className="flex flex-wrap items-center justify-center gap-6 mb-6 px-5  rounded-2xl bg-white/70 border border-white/80 shadow backdrop-blur-sm">
             <img
               src="src/assets/nielit_Logo.png"
               alt="NIELIT"
@@ -40,41 +40,56 @@ export default function Home() {
               alt="QCFI"
               className="h-15 w-auto object-contain drop-shadow"
             />
-          </div>
-          <p className="mb-2 text-[20px] tracking-widest uppercase text-cyan-400 font-semibold">
-            {" "}
-            National Institute of Electronics & Information Technology (NIELIT){" "}
-            <br /> in joint association with Faculty of Engineering & Technology
-            (GKV) and Quality Circle Forum of India (QCFI) announces{" "}
-          </p>{" "}
-          <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-indigo-400 to-purple-400 leading-tight mb-2 drop-shadow">
-            {" "}
-            Mega Job Fair 2025{" "}
-          </h1>{" "}
-          {/* <p className="text-base md:text-[8] text-slate-200 mb-3">
-            {" "}
-            NIELIT, in collaboration with the Faculty of Engineering &
-            Technology, Gurukula Kangri Vishwavidyalaya, and Quality Circle
-            Forum of India (QCFI), proudly announces the{" "}
-            <span className="font-semibold text-emerald-400 pl-1">
-              {" "}
-              Mega Job Fair 2025{" "}
+          </div>*/}
+          {/* Orgs */}
+          <p className="mb-2 text-2xl md:text-3xl tracking-widest uppercase text-amber-200 font-semibold">
+            National Institute of Electronics & Information Technology,Haridwar
+          </p>
+
+          <p className="mb-1 text-sm md:text-base text-amber-100/90 uppercase tracking-wide">
+            in joint association with
+          </p>
+
+          <p className="mb-1 text-2xl md:text-3xl tracking-widest uppercase text-amber-200 font-semibold">
+            Faculty of Engineering & Technology, Gurukula Kangri Vishwavidyalaya
+          </p>
+
+          <p className="mb-1 text-sm md:text-base text-amber-100/90 uppercase tracking-wide">
+            and
+          </p>
+
+          <p className="mb-4 text-2xl md:text-3xl tracking-widest uppercase text-amber-200 font-semibold">
+            Quality Circle Forum of India, Haridwar Chapter
+          </p>
+
+          <p className="mb-2 text-base md:text-lg text-amber-100 font-semibold tracking-wide">
+            ANNOUNCES
+          </p>
+
+          {/* Main title with stronger yellow gradient */}
+          <h1 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-300 to-orange-400 leading-tight mb-3 drop-shadow-lg">
+            Mega Job Fair 2025
+          </h1>
+
+          {/* Date / time */}
+          <p className="text-base md:text-lg text-slate-200 mb-1">
+            Inaugural Ceremony :{" "}
+            <span className="text-amber-200 font-semibold">
+              21 Dec 2025, 10:30 AM
             </span>{" "}
-            to connect aspiring graduates with leading recruiters in emerging
-            technologies.{" "}
-          </p> */}
-          <p className="text-base md:text-lg text-slate-200 mb-3">
-            Inaugural ceremony:{" "}
-            <span className="text-emerald-400 font-semibold">
-              21 Dec 2025, 10:00 AM
-            </span>{" "}
-            | Job Fair:{" "}
-            <span className="text-emerald-400 font-semibold">
-              21 Dec 2025, 11:00 AM
-            </span>{" "}
-            |
-            <span className="font-semibold text-purple-400 pl-1">
-              FET–GKV, Haridwar
+            | Job Fair Registration & Drive Starts at :{" "}
+            <span className="text-amber-200 font-semibold">
+              9:00 AM, 21 Dec 2025
+            </span>
+          </p>
+
+          {/* Venue */}
+          <p className="text-sm md:text-base text-slate-300 mb-3">
+            Venue:{" "}
+            <span className="font-semibold text-amber-100">
+              Faculty of Engineering & Technology, Gurukula Kangri
+              Vishwavidyalaya Campus, Bahadrabad Bypass, Haridwar, Uttarakhand
+              249404
             </span>
           </p>
         </section>
@@ -86,16 +101,11 @@ export default function Home() {
             <div className="pointer-events-none absolute -inset-3 rounded-[2.5rem] bg-gradient-to-r from-cyan-400 via-purple-500 to-emerald-400 opacity-50 blur animate-[glow_5s_ease-in-out_infinite]" />
             <div className="relative z-10 w-full flex flex-col items-center">
               <h2 className="uppercase tracking-[0.25em] text-xs md:text-base text-cyan-900 mb-3 font-bold">
-                Collaborative Tech Jobfair 2025
+                Collaborative Mega Jobfair 2025
               </h2>
               <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-1 leading-tight">
                 Where Talent Meets Opportunity
               </h2>
-              <p className="text-sm md:text-base text-slate-700 mb-7">
-                Join students, tech leaders, and future employers in a milestone
-                event for careers in Cloud, AI, Blockchain, Cybersecurity, Data
-                Science, and beyond.
-              </p>
               {/* Registration cards */}
               <div className="grid md:grid-cols-2 gap-8 w-full mt-2">
                 {/* Student card */}
@@ -104,13 +114,12 @@ export default function Home() {
                   className="group bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-500 p-[2px] rounded-2xl shadow-xl hover:shadow-2xl transition-transform hover:-translate-y-1"
                 >
                   <div className="relative rounded-2xl bg-slate-950/95 p-6">
-                    <span className="text-4xl mb-3 block">🎓</span>
                     <h3 className="text-xl font-bold text-white mb-1">
-                      Student Registration
+                      Jobseeker Registration
                     </h3>
                     <p className="text-sm text-slate-200 mb-3">
-                      Register as a job seeker for developer, IT & future skills
-                      roles.
+                      Register as a job seeker and explore jobs in Future Skills
+                      areas.
                     </p>
                     <span className="text-cyan-300 font-semibold group-hover:text-cyan-200 transition">
                       Start your journey →
@@ -123,9 +132,8 @@ export default function Home() {
                   className="group bg-gradient-to-br from-emerald-500 via-teal-500 to-cyan-500 p-[2px] rounded-2xl shadow-xl hover:shadow-2xl transition-transform hover:-translate-y-1"
                 >
                   <div className="relative rounded-2xl bg-slate-950/95 p-6">
-                    <span className="text-4xl mb-3 block">🏢</span>
                     <h3 className="text-xl font-bold text-white mb-1">
-                      Company Registration
+                      Employer Registration
                     </h3>
                     <p className="text-sm text-slate-200 mb-3">
                       Hire top candidates; conduct quick, on-spot interviews.
@@ -148,10 +156,14 @@ export default function Home() {
                 Why Attend?
               </h4>
               <ul className="list-disc pl-5 text-sm md:text-base space-y-2">
-                <li>Network with recruiters from top tech companies</li>
+                <li>Network with recruiters from top companies</li>
                 <li>Explore job openings in Future Skills areas</li>
                 <li>
                   Participate in live, on-spot interviews and shortlisting
+                </li>
+                <li>
+                  Understand how leading companies design, build and deliver
+                  their products and services
                 </li>
               </ul>
             </div>
@@ -169,7 +181,7 @@ export default function Home() {
         </section>
 
         {/* --- Grand Invite Banner --- */}
-        <div className="max-w-2xl w-full bg-gradient-to-r from-blue-950/90 via-emerald-900/80 to-purple-900/90 text-white rounded-xl px-6 py-6 shadow-xl border border-blue-900 text-center mt-4 mb-8 animate-pulse-slow">
+        {/*<div className="max-w-2xl w-full bg-gradient-to-r from-blue-950/90 via-emerald-900/80 to-purple-900/90 text-white rounded-xl px-6 py-6 shadow-xl border border-blue-900 text-center mt-4 mb-8 animate-pulse-slow">
           <h3 className="text-xl font-bold mb-2 text-emerald-400">
             Be there for the Mega Inaugural Ceremony!
           </h3>
@@ -183,7 +195,7 @@ export default function Home() {
               Vishwavidyalaya
             </span>
           </p>
-        </div>
+        </div>*/}
       </div>
 
       {/* --- Animations --- */}
@@ -207,22 +219,22 @@ export default function Home() {
 
       {/* --- About the Organizers / Additional Info --- */}
       <section className="relative z-10 w-full flex flex-col items-center mt-10 mb-12">
-        {" "}
         <div className="max-w-4xl w-full rounded-2xl bg-gradient-to-tr from-slate-900/95 via-purple-950/90 to-blue-900/90 border border-indigo-900 shadow-2xl px-8 py-10 backdrop-blur-md">
-          {" "}
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-300 to-emerald-400 drop-shadow">
-            {" "}
-            About the Organizers{" "}
+            About the Organizers
           </h2>
+
           <div className="flex flex-col md:flex-row items-stretch gap-6">
             {/* NIELIT */}
             <div className="flex-1 bg-slate-800/90 rounded-xl p-5 shadow border border-cyan-800">
               <div className="flex items-center gap-3 mb-3">
-                <img
-                  src="src/assets/nielit_Logo.png"
-                  alt="NIELIT"
-                  className="h-10 w-auto object-contain rounded bg-white/80 p-1"
-                />
+                <a href="https://www.nielit.gov.in/haridwar/index.php">
+                  <img
+                    src="src/assets/nielit_Logo.png"
+                    alt="NIELIT"
+                    className="h-10 w-auto object-contain rounded bg-white/80 p-1"
+                  />
+                </a>
                 <span className="font-bold text-cyan-300 text-lg">NIELIT</span>
               </div>
               <p className="text-slate-200 text-sm">
@@ -241,16 +253,26 @@ export default function Home() {
                 more than 1 crore candidates in areas like Cloud Computing,
                 Blockchain, Data Science, IoT, and Cybersecurity.
               </p>
+              <a
+                href="https://www.nielit.gov.in/haridwar/index.php"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-3 text-xs font-semibold text-cyan-300 hover:text-cyan-200 underline decoration-dotted"
+              >
+                Visit NIELIT Haridwar website
+              </a>
             </div>
 
             {/* GKV */}
             <div className="flex-1 bg-slate-800/90 rounded-xl p-5 shadow border border-purple-800">
               <div className="flex items-center gap-3 mb-3">
-                <img
-                  src="src/assets/gurukul_logo.png"
-                  alt="GKV"
-                  className="h-10 w-auto object-contain rounded bg-white/90 p-1"
-                />
+                <a href="https://www.gkv.ac.in">
+                  <img
+                    src="src/assets/gurukul_logo.png"
+                    alt="GKV"
+                    className="h-10 w-auto object-contain rounded bg-white/90 p-1"
+                  />
+                </a>
                 <span className="font-bold text-purple-300 text-lg">GKV</span>
               </div>
               <p className="text-slate-200 text-sm">
@@ -267,16 +289,26 @@ export default function Home() {
                 future-ready graduates, offering 50+ UG, PG, PhD, and Diploma
                 programmes.
               </p>
+              <a
+                href="https://www.gkv.ac.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-3 text-xs font-semibold text-purple-300 hover:text-purple-200 underline decoration-dotted"
+              >
+                Visit GKV website
+              </a>
             </div>
 
             {/* QCFI */}
             <div className="flex-1 bg-slate-800/90 rounded-xl p-5 shadow border border-emerald-800">
               <div className="flex items-center gap-3 mb-3">
-                <img
-                  src="https://imgs.search.brave.com/xtzjXcmhVhekCQREuKXh6Y3stAANiPhx1i8BkhfCL54/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/cWNmaXRyYWluaW5n/LmNvbS9pbWFnZXMv/bG9nby5wbmc"
-                  alt="QCFI"
-                  className="h-10 w-auto object-contain bg-white/90 p-1 rounded"
-                />
+                <a href="https://www.qcfi.in">
+                  <img
+                    src="https://imgs.search.brave.com/xtzjXcmhVhekCQREuKXh6Y3stAANiPhx1i8BkhfCL54/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/cWNmaXRyYWluaW5n/LmNvbS9pbWFnZXMv/bG9nby5wbmc"
+                    alt="QCFI"
+                    className="h-10 w-auto object-contain bg-white/90 p-1 rounded"
+                  />
+                </a>
                 <span className="font-bold text-emerald-300 text-lg">QCFI</span>
               </div>
               <p className="text-slate-200 text-sm">
@@ -292,37 +324,42 @@ export default function Home() {
                 QCFI helps build a culture of quality, teamwork, and leadership
                 across Indian enterprises and academia.
               </p>
+              <a
+                href="https://www.qcfi.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-3 text-xs font-semibold text-emerald-300 hover:text-emerald-200 underline decoration-dotted"
+              >
+                Visit QCFI website
+              </a>
             </div>
           </div>
-          {/* Highlight achievements */}
-          <div className="mt-8 flex flex-wrap justify-around gap-6">
-            <div className="flex flex-col items-center">
-              <span className="text-2xl font-bold text-cyan-300">1 Crore+</span>
-              <span className="text-slate-200 text-xs">Candidates Trained</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <span className="text-2xl font-bold text-purple-300">56</span>
-              <span className="text-slate-200 text-xs">NIELIT Centres</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <span className="text-2xl font-bold text-emerald-300">725+</span>
-              <span className="text-slate-200 text-xs">Accredited Centres</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <span className="text-2xl font-bold text-blue-300">9000+</span>
-              <span className="text-slate-200 text-xs">
-                Facilitation Centres
-              </span>
-            </div>
-            <div className="flex flex-col items-center">
-              <span className="text-2xl font-bold text-indigo-300">
-                Future Skills
-              </span>
-              <span className="text-slate-200 text-xs">
-                Cloud, AI, IoT, Cybersecurity, Blockchain
-              </span>
-            </div>
-          </div>
+
+          {/* Highlight achievements (kept commented as you had) */}
+          {/*
+    <div className="mt-8 flex flex-wrap justify-around gap-6">
+      <div className="flex flex-col items-center">
+        <span className="text-2xl font-bold text-cyan-300">1 Crore+</span>
+        <span className="text-slate-200 text-xs">Candidates Trained</span>
+      </div>
+      <div className="flex flex-col items-center">
+        <span className="text-2xl font-bold text-purple-300">56</span>
+        <span className="text-slate-200 text-xs">NIELIT Centres</span>
+      </div>
+      <div className="flex flex-col items-center">
+        <span className="text-2xl font-bold text-emerald-300">725+</span>
+        <span className="text-slate-200 text-xs">Accredited Centres</span>
+      </div>
+      <div className="flex flex-col items-center">
+        <span className="text-2xl font-bold text-blue-300">9000+</span>
+        <span className="text-slate-200 text-xs">Facilitation Centres</span>
+      </div>
+      <div className="flex flex-col items-center">
+        <span className="text-2xl font-bold text-indigo-300">Future Skills</span>
+        <span className="text-slate-200 text-xs">Cloud, AI, IoT, Cybersecurity, Blockchain</span>
+      </div>
+    </div>
+    */}
         </div>
       </section>
 
