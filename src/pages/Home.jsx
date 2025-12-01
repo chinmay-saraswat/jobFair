@@ -43,7 +43,7 @@ export default function Home() {
           </div>*/}
           {/* Orgs */}
           <p className="mb-2 text-2xl md:text-3xl tracking-widest uppercase text-amber-200 font-semibold">
-            National Institute of Electronics & Information Technology,Haridwar
+            National Institute of Electronics & Information Technology, Haridwar
           </p>
 
           <p className="mb-1 text-sm md:text-base text-amber-100/90 uppercase tracking-wide">
@@ -75,11 +75,11 @@ export default function Home() {
           <p className="text-base md:text-lg text-slate-200 mb-1">
             Inaugural Ceremony :{" "}
             <span className="text-amber-200 font-semibold">
-              21 Dec 2025, 10:30 AM
+              21<sup>st</sup> Dec 2025, 10:30 AM
             </span>{" "}
             | Job Fair Registration & Drive Starts at :{" "}
             <span className="text-amber-200 font-semibold">
-              9:00 AM, 21 Dec 2025
+              9:00 AM, 21<sup>st</sup> Dec 2025
             </span>
           </p>
 
@@ -175,6 +175,7 @@ export default function Home() {
                 <li>Meet skilled graduates from different cities</li>
                 <li>Showcase company and technology roles</li>
                 <li>Directly interact with promising candidates</li>
+                <li>Hire the best Talents.</li>
               </ul>
             </div>
           </div>
@@ -238,7 +239,6 @@ export default function Home() {
                 <span className="font-bold text-cyan-300 text-lg">NIELIT</span>
               </div>
               <p className="text-slate-200 text-sm">
-                The{" "}
                 <span className="font-semibold text-cyan-200">
                   National Institute of Electronics & Information Technology
                   (NIELIT)
@@ -264,7 +264,7 @@ export default function Home() {
             </div>
 
             {/* GKV */}
-            <div className="flex-1 bg-slate-800/90 rounded-xl p-5 shadow border border-purple-800">
+            <div className="flex-1 bg-slate-800/90 rounded-xl p-5 shadow border border-cyan-800">
               <div className="flex items-center gap-3 mb-3">
                 <a href="https://www.gkv.ac.in">
                   <img
@@ -273,10 +273,10 @@ export default function Home() {
                     className="h-10 w-auto object-contain rounded bg-white/90 p-1"
                   />
                 </a>
-                <span className="font-bold text-purple-300 text-lg">GKV</span>
+                <span className="font-bold text-cyan-300 text-lg">GKV</span>
               </div>
               <p className="text-slate-200 text-sm">
-                <span className="font-semibold text-purple-200">
+                <span className="font-semibold text-cyan-200">
                   Gurukula Kangri (Deemed to be University)
                 </span>
                 , founded on 4 March 1902 by Swami Shraddhanandaji, is an
