@@ -37,7 +37,7 @@ const companyLogos = [
 
 export default function ParticipatingCompaniesMarquee() {
   return (
-    <div className="w-full bg-transparent flex flex-col items-center pt-11">
+    <div className="w-full bg-transparent flex flex-col items-center pt-15  md:pt-10">
       <div className="max-w-5xl w-full mx-auto px-4">
         <div className="overflow-hidden">
           <div className="marquee flex items-center gap-8 py-3">

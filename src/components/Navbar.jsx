@@ -5,42 +5,43 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Jobseeker Registration", path: "/student" },
-    { name: "Employer Registration", path: "/company" },
+    { name: "Jobseeker", path: "/student" },
+    { name: "Employer", path: "/company" },
   ];
 
   return (
-    <nav className="fixed w-full z-20 top-0 left-0 bg-gray-900/80 backdrop-blur-md shadow-lg border-b border-blue-900">
-      <div className="max-w-6xl mx-auto flex justify-between items-center py-2 px-4">
-        <span className="text-lg font-extrabold bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 text-transparent bg-clip-text drop-shadow">
-          Mega Jobfair 2025
+    <nav className="fixed w-full z-20 top-0 left-0 bg-gray-900/85 backdrop-blur-md shadow-md border-b border-slate-800">
+      <div className="max-w-6xl mx-auto flex justify-between items-center py-2.5 px-4">
+        <span className="text-sm md:text-base font-semibold tracking-wide text-slate-100">
+          <span className="bg-gradient-to-r from-cyan-300 via-emerald-300 to-sky-300 text-transparent bg-clip-text">
+            Mega Job Fair 2025
+          </span>
         </span>
+
         {/* Navigation Links */}
-        <div className="flex gap-8">
+        <div className="flex gap-4 md:gap-8 text-xs md:text-sm">
           {navLinks.map((link) => (
             <Link
               key={link.path}
               to={link.path}
-              className={`relative px-1 text-base font-semibold transition duration-200
-                ${
-                  location.pathname === link.path
-                    ? "text-emerald-400"
-                    : "text-gray-100 hover:text-blue-400"
-                }
-              `}
+              className={`relative px-1 font-medium transition-colors duration-200 ${
+                location.pathname === link.path
+                  ? "text-emerald-300"
+                  : "text-slate-200 hover:text-cyan-300"
+              }`}
             >
               {link.name}
-              {/* Active underline animation */}
               {location.pathname === link.path && (
-                <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 rounded-full animate-in-underline" />
+                <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-cyan-300 via-emerald-300 to-sky-300 rounded-full animate-in-underline" />
               )}
             </Link>
           ))}
         </div>
       </div>
+
       <style>{`
         .animate-in-underline {
-          animation: underline-grow .45s cubic-bezier(.4,0,.2,1);
+          animation: underline-grow .35s cubic-bezier(.4,0,.2,1);
         }
         @keyframes underline-grow {
           from { width: 0; }

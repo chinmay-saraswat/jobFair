@@ -17,3 +17,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 http://localhost:5000/api
+
+https://jobfair-backend-seven.vercel.app/api

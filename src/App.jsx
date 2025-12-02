@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Student from "./pages/student";
+import Student from "./pages/Student";
 import Company from "./pages/Company";
 import Navbar from "./components/Navbar";
 import { ToastContainer } from "react-toastify";
