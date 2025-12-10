@@ -50,7 +50,7 @@ function Company() {
 
   return (
     <div
-      className="pt-20 min-h-screen flex items-center justify-center px-4"
+      className="pt-20 min-h-screen flex items-center justify-center px-4 pb-15"
       style={{
         background: `url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat, #181f2c`,
       }}
@@ -141,14 +141,14 @@ function Company() {
           ))}
           <button
             onClick={addRole}
-            className="block w-full md:w-auto mx-auto border border-blue-600 text-blue-200 px-6 py-2 rounded-lg hover:bg-blue-700/90 hover:text-white transition font-semibold mt-2 mb-4 shadow"
+            className="block w-full md:w-auto mx-auto border border-blue-600 text-blue-200 px-6 py-2 rounded-lg hover:bg-blue-700/90 hover:text-white transition font-semibold mt-2 mb-4 shadow "
           >
             + Add Job Role
           </button>
         </div>
         <button
           onClick={submit}
-          className="w-full mt-4 bg-gradient-to-r from-blue-700 via-purple-700 to-emerald-500 hover:opacity-85 text-white py-3 rounded-xl text-lg font-bold shadow-lg tracking-wide transition"
+          className="w-full mt-4 cursor-pointer bg-gradient-to-r from-blue-700 via-purple-700 to-emerald-500 hover:opacity-85 text-white py-3 rounded-xl text-lg font-bold shadow-lg tracking-wide transition"
         >
           Submit
         </button>

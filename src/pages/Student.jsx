@@ -56,7 +56,7 @@ function Student() {
 
   return (
     <div
-      className="pt-20 min-h-screen flex items-center justify-center px-4"
+      className="pt-20 min-h-screen flex items-center justify-center px-4 pb-15"
       style={{
         background: `url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat, #181f2c`,
       }}
@@ -184,10 +184,10 @@ function Student() {
             </div>
           </div>
         </div>
-
+ 
         <button
           onClick={handleSubmit}
-          className="w-full mt-6 bg-gradient-to-r from-blue-700 via-purple-700 to-emerald-500 hover:opacity-85 text-white py-3 rounded-lg text-lg font-bold shadow-lg tracking-wider transition"
+          className="w-full mt-6  cursor-pointer bg-gradient-to-r from-blue-700 via-purple-700 to-emerald-500 hover:opacity-85 text-white py-3 rounded-lg text-lg font-bold shadow-lg tracking-wider transition"
         >
           Submit
         </button>

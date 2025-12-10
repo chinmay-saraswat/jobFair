@@ -80,11 +80,11 @@ export default function Home() {
           <p className="text-sm md:text-lg text-slate-200 mb-1 px-1">
             Inaugural Ceremony :{" "}
             <span className="text-amber-200 font-semibold">
-              21<sup>st</sup> Dec 2025, 10:30 AM
+              28<sup>th</sup> Dec 2025, 10:30 AM
             </span>{" "}
             | Job Fair Registration & Drive Starts at :{" "}
             <span className="text-amber-200 font-semibold">
-              9:00 AM, 21<sup>st</sup> Dec 2025
+              9:00 AM, 28<sup>th</sup> Dec 2025
             </span>
           </p>
 
@@ -192,7 +192,7 @@ export default function Home() {
           </h3>
           <p className="mb-0">
             <span className="font-semibold">
-              21 December 2025, 10:00 AM · FET–GKV, Haridwar
+              28 December 2025, 10:00 AM · FET–GKV, Haridwar
             </span>
             <br />
             <span className="text-blue-300 font-medium">
@@ -325,14 +325,10 @@ export default function Home() {
                 <span className="font-semibold text-emerald-200">
                   Quality Circle Forum of India (QCFI)
                 </span>{" "}
-                is a pioneer in promoting Quality Concepts and people
-                involvement for industry improvement, supporting training,
-                workshops, and events that foster innovation and continuous
-                improvement.
+                drives progress through self-reliance and innovation, representing India internationally. With two key missions—Clean India (5S Home Certification) and Skill India (One Lakh MSMEs)—it has trained over 50 Lakhs professionals.
               </p>
               <p className="mt-2 text-slate-400 text-[11px] md:text-xs">
-                QCFI helps build a culture of quality, teamwork, and leadership
-                across Indian enterprises and academia.
+                QCFI offers training in concepts like QC, 5S, Six Sigma, and TPM across diverse sectors, including Automobile, Steel, Pharma, and Manufacturing, serving over 10,000 institutional members.
               </p>
               <a
                 href="https://www.qcfi.in"
