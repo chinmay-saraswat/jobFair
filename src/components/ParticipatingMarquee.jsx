@@ -33,6 +33,18 @@ const companyLogos = [
     src: "src/assets/axis-bank-logo-png_seeklogo-14775.webp",
     alt: "AxisBank",
   },
+  {
+    src: "src/assets/paytm.webp",
+    alt: "Paytm",
+  },
+  {
+    src: "src/assets/tecxed_logo.jpg",
+    alt: "tecxed",
+  },
+  {
+    src: "src/assets/HCL_Technologies-Logo.wine.png",
+    alt: "HCL",
+  },
 ];
 
 export default function ParticipatingCompaniesMarquee() {
