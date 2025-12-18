@@ -2,20 +2,20 @@
 
 const companyLogos = [
   {
-    src: "src/assets/Tech_Mahindra_New_Logo.webp",
-    alt: "TechMahidra",
+    src: "src/assets/Siddhi.jpg",
+    alt: "Siddhi",
   },
   {
     src: "src/assets/3I-infotech-logo.png",
     alt: "Infotech",
   },
   {
-    src: "src/assets/energizer.webp",
-    alt: "energizer",
+    src: "src/assets/bajaj.jpg",
+    alt: "Bajaj",
   },
   {
-    src: "src/assets/concentrix-logo2.webp",
-    alt: "concentrix",
+    src: "src/assets/Dixon.jpg",
+    alt: "Dixon",
   },
   {
     src: "src/assets/Quess_Corp_Color_Logo.webp",
@@ -29,21 +29,33 @@ const companyLogos = [
     src: "src/assets/teamLeaseLogo.webp",
     alt: "TeamLease",
   },
-   {
+  {
     src: "src/assets/axis-bank-logo-png_seeklogo-14775.webp",
     alt: "AxisBank",
   },
   {
-    src: "src/assets/paytm.webp",
-    alt: "Paytm",
+    src: "src/assets/Pukhraj.jpg",
+    alt: "Pukhraj",
   },
   {
     src: "src/assets/tecxed_logo.jpg",
     alt: "tecxed",
   },
   {
-    src: "src/assets/HCL_Technologies-Logo.wine.png",
-    alt: "HCL",
+    src: "src/assets/ERD.jpg",
+    alt: "ERD",
+  },
+  {
+    src: "src/assets/MetaConnect.jpg",
+    alt: "MetaConnect",
+  },
+  {
+    src: "src/assets/Paytm.jpg",
+    alt: "Paytm",
+  },
+  {
+    src: "src/assets/Infosoft.jpg",
+    alt: "Infosoft",
   },
 ];
 

@@ -133,7 +133,7 @@ function Student() {
           </div>
           <div className="grid md:grid-cols-2 gap-4">
             {[
-              { name: "collegeName", label: "College Name" },
+              { name: "collegeName", label: "College/Institute Name" },
               { name: "courseName", label: "Course Name" },
               { name: "branch", label: "Branch" },
             ].map(({ name, label, type }) => (
@@ -162,7 +162,7 @@ function Student() {
                 className="w-full border border-blue-900 bg-gray-800 text-gray-100 rounded-md px-3 py-2 focus:ring-2 focus:ring-blue-400 outline-none transition shadow-sm"
               >
                 <option value="">Select Year</option>
-                {["1st", "2nd", "3rd", "4th", "Graduate"].map((year) => (
+                {["1st", "2nd", "3rd", "4th","NIELIT Qualification", "Graduate"].map((year) => (
                   <option key={year} value={year}>
                     {year}
                   </option>
