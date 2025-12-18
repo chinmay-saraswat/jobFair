@@ -8,6 +8,9 @@ const companyLogos = [
   {
     src: "src/assets/3I-infotech-logo.png",
     alt: "Infotech",
+  },{
+    src: "src/assets/AxisBank.jpg",
+    alt: "AxisBank",
   },
   {
     src: "src/assets/bajaj.jpg",
